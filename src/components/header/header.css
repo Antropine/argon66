@@ -1,0 +1,76 @@
+.header-wrapper{
+    border-bottom: 1px solid black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-right: 1px solid black;
+    padding: 10px 20px;
+}
+
+.company{
+    font-weight: 800;
+    font-size: 48px;
+    margin: 0;
+}
+
+.subtitle{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.logo img{
+    height: 40px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    border-right: 1px solid black;
+    padding: 10px 20px;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+}
+
+nav a:hover{
+    transform: scale(1.05);
+}
+
+.contact{
+    display: flex;
+    align-items: stretch;
+}
+
+.city{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid black;
+    padding: 10px 20px;
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.town, .address, .tel1, .tel2{
+    margin: 0;
+}

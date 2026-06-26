@@ -1,0 +1,58 @@
+.record{
+    background-color: #1E1E1E;
+    background-image: url('./abstract.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: contain;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding-bottom: 90px;
+}
+
+.record-content{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.record h2{
+    color: white;
+    margin-top: 0;
+    padding-top: 90px;
+}
+
+.form{
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 900px;
+}
+
+.registration{
+    display: flex;
+    gap: 50px;
+}
+
+input{
+    background-color: #1E1E1E;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+textarea{
+    background-color: #1E1E1E;
+    text-align: center;
+    color: white;
+}
+
+::placeholder{
+    color: white;
+}
+
+.registration button{
+    background-color: #1E1E1E;
+    color: white;
+    padding: 18px 80px;
+}

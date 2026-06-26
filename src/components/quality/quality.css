@@ -1,0 +1,106 @@
+.quality {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding-bottom: 90px;
+}
+
+.quality h2 {
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.quality-content {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    padding-left: 150px;
+    box-sizing: border-box;
+}
+
+.quality-step {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.quality-step img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+}
+
+.quality-step p:first-of-type {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0 20px;
+}
+
+.quality-step p:last-of-type {
+    font-size: 14px;
+    padding: 0 20px 20px;
+}
+
+.quality-steps {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quality-steps1 {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 30px;
+    gap: 30px;
+}
+
+.quality-steps1 p:first-child {
+    font-size: 24px;
+    font-weight: 600;
+    min-width: 40%;
+}
+
+.quality-steps1 p:last-child {
+    font-size: 14px;
+}
+
+.quality-steps2 {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 30px;
+    gap: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.quality-steps2 p:first-child {
+    font-size: 24px;
+    font-weight: 600;
+    min-width: 30%;
+    position: relative;
+    z-index: 1;
+}
+
+.quality-steps2 p:nth-child(2) {
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+}
+
+.quality-steps2 img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 80%;
+    object-fit: contain;
+    z-index: 0;
+}
