@@ -4,7 +4,7 @@ import './about.css'
 export default class About extends Component {
   render() {
     return (
-      <div className='about'>
+      <div className='about' id='reviews'>
         <h2>ЛЮДИ ПРО НАС</h2>
         <div className='about-side'>
              <div className='left-side'>

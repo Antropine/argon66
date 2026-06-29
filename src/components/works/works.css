@@ -5,6 +5,11 @@
     padding-bottom: 90px;
 }
 
+.works h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+
 .works-card img {
     width: 100%;
     height: 250px;

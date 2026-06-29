@@ -6,7 +6,7 @@
 }
 
 .services-content{
-    width: 95%;
+    width: 97%;
     margin: 0 auto;
 }
 
@@ -81,6 +81,11 @@
     text-decoration: none;
     font-size: 20px;
     margin-top: 10px;
+    transition: all 0.3s;
+}
+
+.service-button:hover{
+    transform: scale(1.05);
 }
 
 .service-images{

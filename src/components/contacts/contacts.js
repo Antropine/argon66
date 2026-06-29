@@ -4,7 +4,7 @@ import './contacts.css'
 export default class Contacts extends Component {
   render() {
     return (
-      <div className='contacts'>
+      <div className='contacts' id='contacts'>
         <h2>КАК С НАМИ СВЯЗАТЬСЯ</h2>
         <div className='contact-address'>
             <div className='left-address'>
@@ -12,7 +12,7 @@ export default class Contacts extends Component {
                     <p className='step-number'>01</p>
                     <div>
                         <p className='step-title'>АДРЕС</p>
-                        <p className='step-text'>Россия, г. Екатеринбург, Космонавтов проспект, 258/3 Сварочный цех. Бокс номер 5</p>
+                        <p className='step-texts'>Россия, г. Екатеринбург, Космонавтов проспект, 258/3 Сварочный цех. Бокс номер 5</p>
                     </div>
                 </div>
                 <div className='map'>
@@ -24,14 +24,14 @@ export default class Contacts extends Component {
                     <p className='step-number'>02</p>
                     <div>
                         <p className='step-title'>ТЕЛЕФОНЫ</p>
-                        <p className='step-text'>+7 (909) 011-17-71<br/>+7 (343) 202-00-23</p>
+                        <p className='step-texts'>+7 (909) 011-17-71<br/>+7 (343) 202-00-23</p>
                     </div>
                 </div>
                 <div className='step'>
                     <p className='step-number'>03</p>
                     <div>
                         <p className='step-title'>E-MAIL</p>
-                        <p className='step-text'>argon@argon66.ru</p>
+                        <p className='step-texts'>argon@argon66.ru</p>
                     </div>
                 </div>
                 <div className='step'>
@@ -39,8 +39,8 @@ export default class Contacts extends Component {
                     <div>
                         <p className='step-title'>МЫ В СОЦИАЛЬНЫХ СЕТЯХ</p>
                         <div className='social-icon'>
-                            <a href='https://vk.ru/argon66' target='_blank'><img src='images/vk.svg' alt='Вконтакте'></img></a>
-                            <a href='https://instagram.com/ARGON66' target='_blank'><img src='images/instagram.svg' alt='Инстаграм'></img></a>
+                            <a href='https://vk.ru/argon66' target='_blank' rel="noopener noreferrer"><img src='images/vk.svg' alt='Вконтакте'></img></a>
+                            <a href='https://instagram.com/ARGON66' target='_blank' rel="noopener noreferrer"><img src='images/instagram.svg' alt='Инстаграм'></img></a>
                         </div>
                     </div>
                 </div>
@@ -54,18 +54,18 @@ export default class Contacts extends Component {
                         <p className='step-title'>НАШИ РЕКВИЗИТЫ</p>
                         <div className='payment'>
                             <div className='payment-list'>
-                                <p>Наименование компании / полное</p>
-                                <p>Наименование компании / сокращенное</p>
+                                <p><b>Наименование компании / полное</b></p>
+                                <p><b>Наименование компании / сокращенное</b></p>
                             </div>
                             <div className='payment-list'>
                                 <p>Общество с ограниченной ответственностью "Лимеранс Екатеринбург"</p>
                                 <p>ООО "Лимеранс Екатеринбург"</p>
                             </div>
                             <div className='payment-list'>
-                                <p>Регистрационная информация</p>
-                                <p>Фактический адрес</p>
-                                <p>ИНН</p>
-                                <p>КПП</p>
+                                <p><b>Регистрационная информация</b></p>
+                                <p><b>Фактический адрес</b></p>
+                                <p><b>ИНН</b></p>
+                                <p><b>КПП</b></p>
                             </div>
                             <div className='payment-list'>
                                 <p></p>

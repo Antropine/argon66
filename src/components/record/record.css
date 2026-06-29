@@ -10,7 +10,7 @@
 }
 
 .record-content{
-    width: 95%;
+    width: 97%;
     margin: 0 auto;
 }
 
@@ -18,6 +18,8 @@
     color: white;
     margin-top: 0;
     padding-top: 90px;
+    font-size: 48px;
+    font-weight: 600;
 }
 
 .form{
@@ -45,6 +47,10 @@ textarea{
     background-color: #1E1E1E;
     text-align: center;
     color: white;
+    height: 280px;
+    font-family: inter;
+    padding: 20px;
+    resize: none;
 }
 
 ::placeholder{
@@ -54,5 +60,12 @@ textarea{
 .registration button{
     background-color: #1E1E1E;
     color: white;
-    padding: 18px 80px;
+    padding: 18px 125px;
+    transition: all 0.3s;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.registration button:hover{
+    transform: scale(1.05);
 }

@@ -6,7 +6,7 @@ export default class Footer extends Component {
     return (
       <div className='footer'>
         <div className='logo'>
-            <img src='images/logo.svg'></img>
+            <img src='images/logo.svg' alt='Логотип'></img>
             <div>
                 <p className='company'>ARGON66</p>
                 <p className='subtitle'>СВАРОЧНЫЕ РАБОТЫ</p>
@@ -29,8 +29,8 @@ export default class Footer extends Component {
             <p>+7 (909) 011-17-71<br/>+7 (343) 202-00-23<br/>argon@argon66.ru</p>
           </div>
           <div className='social-icon'>
-            <a href='https://vk.ru/argon66' target='_blank'><img src='images/vk.svg' alt='Вконтакте'></img></a>
-            <a href='https://instagram.com/ARGON66' target='_blank'><img src='images/instagram.svg' alt='Инстаграм'></img></a>
+            <a href='https://vk.ru/argon66' target='_blank' rel="noopener noreferrer"><img src='images/vk.svg' alt='Вконтакте'></img></a>
+            <a href='https://instagram.com/ARGON66' target='_blank' rel="noopener noreferrer"><img src='images/instagram.svg' alt='Инстаграм'></img></a>
           </div>
           <div className='contacts1'>
             <p>Россия, г. Екатеринбург,<br/>Космонавтов проспект, 258/3<br/>Сварочный цех. Бокс номер 5</p>

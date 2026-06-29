@@ -5,14 +5,16 @@
 }
 
 .quality h2 {
-    width: 95%;
+    width: 97%;
     margin: 0 auto;
     padding-top: 90px;
     padding-bottom: 50px;
+    font-size: 48px;
+    font-weight: 600;
 }
 
 .quality-content {
-    width: 95%;
+    width: 97%;
     margin: 0 auto;
     display: flex;
     gap: 20px;
@@ -35,13 +37,14 @@
 }
 
 .quality-step p:first-of-type {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 32px;
+    font-weight: 700;
     padding: 0 20px;
+    margin-bottom: 10px;
 }
 
 .quality-step p:last-of-type {
-    font-size: 14px;
+    font-size: 20px;
     padding: 0 20px 20px;
 }
 
@@ -55,52 +58,44 @@
 .quality-steps1 {
     border: 1px solid black;
     display: flex;
-    align-items: center;
+    justify-content: flex-start;
     flex: 1;
     padding: 30px;
-    gap: 30px;
-}
-
-.quality-steps1 p:first-child {
-    font-size: 24px;
-    font-weight: 600;
-    min-width: 40%;
-}
-
-.quality-steps1 p:last-child {
-    font-size: 14px;
+    gap: 40px;
 }
 
 .quality-steps2 {
     border: 1px solid black;
     display: flex;
-    align-items: center;
+    justify-content: flex-start;
     flex: 1;
     padding: 30px;
-    gap: 30px;
+    gap: 40px;
     position: relative;
     overflow: hidden;
 }
 
-.quality-steps2 p:first-child {
-    font-size: 24px;
-    font-weight: 600;
-    min-width: 30%;
+.quality-steps2 p{
     position: relative;
     z-index: 1;
 }
 
-.quality-steps2 p:nth-child(2) {
-    font-size: 14px;
-    position: relative;
-    z-index: 1;
+.step-text{
+    max-width: 50%;
+    font-size: 20px;
 }
+
+.step-title{
+    font-size: 32px;
+    font-weight: 800;
+}
+
 
 .quality-steps2 img {
     position: absolute;
     bottom: 0;
     right: 0;
-    height: 80%;
+    height: 65%;
     object-fit: contain;
     z-index: 0;
 }

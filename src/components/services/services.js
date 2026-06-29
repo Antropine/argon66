@@ -21,7 +21,7 @@ export default class Services extends Component {
         number:"03",
         title: "СВАРОЧНО РЕМОНТНЫЕ УСЛУГИ",
         content: "Оказываем услуги по ремонту топливного бака грузового автомобиля, Ремонт изделий из алюминия, а также полуавтоматом. Сварка нержавеющей стали Сварка меди и Сварка фланцев и элементов трубопровода Изготовление металлоконструкций из цветных металлов",
-        price: "Минимальная стоимость услуги от 500 до 1000 рублей в зависимости от услуги",
+        price: "Минимальная стоимость услуги от 500 до 2000 рублей в зависимости от услуги",
         images: ["images/service7.png", "images/service8.png", "images/service9.png"]
     },
   ]
@@ -34,7 +34,7 @@ export default class Services extends Component {
 
   render() {
     return (
-      <div className='services'>
+      <div className='services' id='services'>
         <div className='services-content'>
           <h2>УСЛУГИ</h2>
 

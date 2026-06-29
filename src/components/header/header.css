@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    width: 95%;
+    width: 97%;
     margin: 0 auto;
 }
 
@@ -31,13 +31,12 @@
 }
 
 .logo img{
-    height: 40px;
+    height: 70px;
 }
 
 .menu{
     display: flex;
     align-items: center;
-    border-right: 1px solid black;
     padding: 10px 20px;
 }
 
@@ -45,6 +44,12 @@ nav{
     display: flex;
     gap: 30px;
     font-size: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #1E1E1E;
+    transition: all 0.3s;
 }
 
 nav a:hover{
@@ -60,8 +65,19 @@ nav a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-left: 1px solid black;
     border-right: 1px solid black;
     padding: 10px 20px;
+}
+
+.town{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.address .tel2{
+    font-size: 13px;
+    font-weight: 200;
 }
 
 .phone{
@@ -69,6 +85,11 @@ nav a:hover{
     flex-direction: column;
     justify-content: center;
     padding: 10px 20px;
+}
+
+.tel1{
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .town, .address, .tel1, .tel2{
