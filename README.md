@@ -8,6 +8,10 @@
 </p>
 
 ---
+<p align="center">
+  <img src="./logo.svg" alt="ARGON66 Logo" width="180">
+</p>
+
 # Welding Services Website
 
 ## About
